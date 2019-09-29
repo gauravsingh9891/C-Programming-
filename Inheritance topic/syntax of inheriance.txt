@@ -1,0 +1,23 @@
+		---------------Syntax of inheritance--------------
+
+class base_classname
+{
+  ----
+  ----
+  ----	
+};
+
+class derived_classname:Access base_classname
+{
+  ----
+  ----
+  ----
+};
+
+Access = (private: , public: , protected:)
+
+main()
+{
+  ----
+  ----
+}

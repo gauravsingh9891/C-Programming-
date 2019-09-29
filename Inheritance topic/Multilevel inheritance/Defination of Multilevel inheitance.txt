@@ -1,0 +1,9 @@
+	-------------------------Multilevel Inheritance-----------------------------
+
+* Defination :- Inheritance base class- The class which act as parent as well as child.
+  			
+			Parent class
+			     |
+		Intermidiate class / child class
+			     |
+			Child class
