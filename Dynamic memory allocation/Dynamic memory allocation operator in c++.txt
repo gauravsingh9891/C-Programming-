@@ -1,0 +1,30 @@
+                                    ----------------Dynamic memory allocation operator in c++ ---------------
+	
+_______keyword for Dynamic memory________
+
+1). new
+2). delete
+
+1). new:- It is an operator to allocate memory at run time.
+
+      Syntax
+    -----------
+
+       {  Data_type  Pointer_variable = new Data_type;  }
+
+   
+    example:-
+		int *P=new int;         //int P;
+		int *a=new int (5);	//int a=5;
+		int *a=new int [5];	//int a[5];
+
+	       [ sample *obj=new sample; ]            // Default constructor
+	       [ sample *obj=new sample(10); ]	      // Parameterise constructor
+		
+2). delete:- It is an operator which release the memory.
+
+	example-
+			delete (P);
+			delete (a);
+			delete []a;
+			delete obj;
