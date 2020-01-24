@@ -5,7 +5,7 @@ class matrix
 {
 	int i,m,j,d1_sum,d2_sum,a[5][5];
 	public:
-		matrix()
+		matrix()   //default contructor
 		{
 			d1_sum=0;
 			d2_sum=0;
